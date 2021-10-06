@@ -12,32 +12,27 @@
         <h1>Formulario</h1>
 
         <p>Por favor, rellene el siguiente formulario.</p>
-        <form>
+        <form method="post">
             
             <label for="nombre">Nombre</label><input type="text" id="nombre"><br>
             <label for="email">Email</label><input type="email" id="email"><br>
 
-            
+            <label for="fConocer">¿Alguna vez ha oído hablar de Ryan Gosling?</label><br>
+            <fieldset id="fConocer">
+                <input type="radio" name="qconocer" id="siConocer"><label for="siConocer">Si</label><br>
+                <input type="radio" name="qConocer" id="noConocer"><label for="noConocer">No</label><br>
+            </fieldset>          
 
-            <p>¿Alguna vez ha oído hablar de Ryan Gosling?</p><br>
-            <input type="radio" name="Qconocer" id="siConocer"><label for="siConocer">Si</label><br>
-            <input type="radio" name="Qconocer" id="noConocer"><label for="noConocer">No</label><br>
-
-            
-
-            <p>¿Alguna vez ha usado Java?</p><br>
-            <input type="radio" name="Qusar" id="siUsar"><label for="siUsar">Si</label><br>
-            <input type="radio" name="Qusar" id="noUsar"><label for="noUsar">No</label><br>
-
-            
+            <label for=fUsar>¿Alguna vez ha usado Java?</label><br>
+            <fieldset id="fUsar">
+                <input type="radio" name="qUusar" id="siUsar"><label for="siUsar">Si</label><br>
+                <input type="radio" name="qUsar" id="noUsar"><label for="noUsar">No</label><br>
+            </fieldset>
 
             <label for="opinion">Introduza su opinión sobre Ryan Gosling:</label><br>
             <textarea cols="20" rows="8" id="opinion"></textarea><br>
 
-            
-
             <input type="button" value="Enviar">
-
         </form>
     </body>
 </html>
