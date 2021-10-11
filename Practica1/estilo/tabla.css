@@ -1,0 +1,11 @@
+table,th,td{
+    border-style: ridge;
+}
+
+table{
+    width: 70%;
+}
+
+.name{
+    font-style: italic;
+}
