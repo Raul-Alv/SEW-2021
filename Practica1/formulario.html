@@ -10,37 +10,39 @@
         <link rel="stylesheet" type="text/css" href="estilo/formularios.css"/>
     </head>
 
-    <body>
-        <h1>Formulario</h1>
+    <body class="formularioContainer">
+        <h1 class="title">Formulario</h1>
 
-        <nav>
+        <nav class="navigation">
             <a href="index.html" accesskey="I" tabindex=0>Inicio</a>
             <a href="java.html" accesskey="J" tabindex=1>Historia de Java</a>
             <a href="premios.html" accesskey="P" tabindex=2>Premios</a>
         </nav>
 
-        <p>Por favor, rellene el siguiente formulario.</p>
-        <form method="post">
-            
-            <label for="nombre">Nombre</label><input type="text" id="nombre"><br>
-            <label for="email">Email</label><input type="email" id="email"><br>
+        <main class="container">
+            <p>Por favor, rellene el siguiente formulario.</p>
+            <form method="post">
+                
+                <label for="nombre">Nombre</label><input type="text" id="nombre"><br>
+                <label for="email">Email</label><input type="email" id="email"><br>
 
-            <fieldset id="fConocer">
-                <legend>¿Alguna vez ha oído hablar de James Gosling?</legend>
-                <input type="radio" name="qconocer" id="siConocer"><label for="siConocer">Si</label><br>
-                <input type="radio" name="qConocer" id="noConocer"><label for="noConocer">No</label><br>
-            </fieldset>          
+                <fieldset id="fConocer">
+                    <legend>¿Alguna vez ha oído hablar de James Gosling?</legend>
+                    <input type="radio" name="qconocer" id="siConocer"><label for="siConocer">Si</label><br>
+                    <input type="radio" name="qConocer" id="noConocer"><label for="noConocer">No</label><br>
+                </fieldset>          
 
-            <fieldset id="fUsar">
-                <legend>¿Alguna vez ha usado Java?</legend>
-                <input type="radio" name="qUsar" id="siUsar"><label for="siUsar">Si</label><br>
-                <input type="radio" name="qUsar" id="noUsar"><label for="noUsar">No</label><br>
-            </fieldset>
+                <fieldset id="fUsar">
+                    <legend>¿Alguna vez ha usado Java?</legend>
+                    <input type="radio" name="qUsar" id="siUsar"><label for="siUsar">Si</label><br>
+                    <input type="radio" name="qUsar" id="noUsar"><label for="noUsar">No</label><br>
+                </fieldset>
 
-            <label for="opinion">Introduza su opinión sobre James Gosling:</label><br>
-            <textarea cols="20" rows="8" id="opinion"></textarea><br>
+                <label for="opinion">Introduza su opinión sobre James Gosling:</label><br>
+                <textarea cols="20" rows="8" id="opinion"></textarea><br>
 
-            <input type="button" value="Enviar">
-        </form>
+                <input type="button" value="Enviar">
+            </form>
+        </main>
     </body>
 </html>

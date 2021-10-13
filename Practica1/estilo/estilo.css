@@ -18,13 +18,6 @@ nav{
     display: flex;
     justify-content: space-evenly;
     background-color: #D9FF52;
-}
-
-.title{
-    grid-area: title;
-}
-
-.navigation{
     grid-area: nav;
     justify-self: stretch;
     text-align: center;
@@ -32,6 +25,19 @@ nav{
     line-height: 20px;
 }
 
+.title{
+    grid-area: title;
+}
+
+/*
+.navigation{
+    grid-area: nav;
+    justify-self: stretch;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 20px;
+}
+*/
 .container{
     grid-area: main;
     display: flex;
@@ -40,12 +46,15 @@ nav{
 
 .multimedia{
     grid-area: aside;
+    display: flex;
+    flex-direction: column;
+    justify-self: stretch;
 }
 
-.mainContainer{
+.indexContainer{
     display: grid;
     grid-template-columns: 70% 30%;
-    grid-template-rows: 20% 30px 75%;
+    grid-template-rows: 160px 30px 75%;
     grid-template-areas: 
     "title title"
     "nav nav"
@@ -53,7 +62,20 @@ nav{
     "main aside";
 }
 
+.javaContainer, .premiosContainer, .formularioContainer{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 160px 30px 75%;
+    grid-template-areas: 
+    "title title"
+    "nav nav"
+    "main main"
+    "main main";
+}
+
 #fotoRyan{
     width: 400px;
     height: auto;
 }
+
+
