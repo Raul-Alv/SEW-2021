@@ -15,5 +15,45 @@ h2{
 }
 
 nav{
+    display: flex;
+    justify-content: space-evenly;
     background-color: #D9FF52;
+}
+
+.title{
+    grid-area: title;
+}
+
+.navigation{
+    grid-area: nav;
+    justify-self: stretch;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 20px;
+}
+
+.container{
+    grid-area: main;
+    display: flex;
+    flex-direction: column;
+}
+
+.multimedia{
+    grid-area: aside;
+}
+
+.mainContainer{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 20% 30px 75%;
+    grid-template-areas: 
+    "title title"
+    "nav nav"
+    "main aside"
+    "main aside";
+}
+
+#fotoRyan{
+    width: 400px;
+    height: auto;
 }
