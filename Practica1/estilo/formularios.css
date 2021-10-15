@@ -1,9 +1,60 @@
 fieldset {
     width: 40%;
-    
+}
+
+#labelNombre{
+    grid-area: lNombre;
+}
+
+#nombre{
+    grid-area: nombre;
+}
+
+#labelEmail{
+    grid-area: lEmail;
+}
+
+#email{
+    grid-area: email;
+}
+
+#fConocer{
+    grid-area: conocer;
+}
+
+#fUsar{
+    grid-area: usar;
+}
+
+#labelOpinion{
+    resize: none;
+    grid-area: lOpinion;
 }
 
 #opinion{
     resize: none;
-    width: 40%;
+    grid-area: opinion;
+}
+
+#enviar{
+    grid-area: enviar;
+}
+
+.formulario{
+    
+    display: grid;
+    grid-template-columns: 25% 20% 8%;
+    grid-template-rows: 6% 8% 6% 8% 25% 25% 6% 30% 4% 8%;
+    grid-template-areas: 
+    "lNombre . ."
+    "nombre . ."
+    "lEmail . ."
+    "email . ."
+    "conocer conocer ."
+    "usar usar ."
+    "lOpinion . ."
+    "opinion . ."
+    ". . ."
+    ". . enviar"
+    ;
 }
