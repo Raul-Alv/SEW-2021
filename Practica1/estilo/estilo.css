@@ -52,7 +52,8 @@ nav{
     grid-area: aside;
     display: flex;
     flex-direction: column;
-    justify-self: stretch;
+    justify-content: stretch;
+
 }
 
 .indexContainer{
@@ -66,7 +67,7 @@ nav{
     "main aside";
 }
 
-.javaContainer, .premiosContainer, .formularioContainer{
+.javaContainer, .premiosContainer{
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 160px 30px 75%;
@@ -75,6 +76,17 @@ nav{
     "nav nav"
     "main main"
     "main main";
+}
+
+.formularioContainer{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 160px 30px 75%;
+    grid-template-areas: 
+    "title title"
+    "nav nav"
+    "form ."
+    "form .";
 }
 
 #fotoRyan{
