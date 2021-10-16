@@ -49,8 +49,8 @@ fieldset {
     font-size: 18px;
     grid-area: form;
     display: grid;
-    grid-template-columns: 500px 100px 100px;
-    grid-template-rows: 6% 6% 6% 6% 23% 23% 6% 1% 25% 4% 6%;
+    grid-template-columns: 550px 100px 50px;
+    grid-template-rows: 7% 7% 7% 7% 25% 25% 7% 1% 25% 4% 6%;
     grid-template-areas: 
     "lNombre . ."
     "nombre . ."
