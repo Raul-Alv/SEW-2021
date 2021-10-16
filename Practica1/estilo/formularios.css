@@ -43,7 +43,7 @@ fieldset {
 .formulario{
     grid-area: form;
     display: grid;
-    grid-template-columns: 45% 20% 8%;
+    grid-template-columns: 400px 100px 100px;
     grid-template-rows: 6% 6% 6% 6% 23% 23% 6% 1% 25% 4% 6%;
     grid-template-areas: 
     "lNombre . ."
@@ -56,6 +56,6 @@ fieldset {
     ". . ."
     "opinion . ."
     ". . ."
-    ". . enviar"
+    ". enviar ."
     ;
 }
