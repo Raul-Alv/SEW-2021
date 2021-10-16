@@ -8,6 +8,7 @@ fieldset {
 
 #nombre{
     grid-area: nombre;
+    padding: 12px;
 }
 
 #labelEmail{
@@ -16,14 +17,17 @@ fieldset {
 
 #email{
     grid-area: email;
+    padding: 12px;
 }
 
 #fConocer{
     grid-area: conocer;
+    padding: 12px;
 }
 
 #fUsar{
     grid-area: usar;
+    padding: 12px;
 }
 
 #labelOpinion{
@@ -34,6 +38,7 @@ fieldset {
 #opinion{
     resize: none;
     grid-area: opinion;
+    padding: 12px;
 }
 
 #enviar{
@@ -41,9 +46,10 @@ fieldset {
 }
 
 .formulario{
+    font-size: 18px;
     grid-area: form;
     display: grid;
-    grid-template-columns: 400px 100px 100px;
+    grid-template-columns: 500px 100px 100px;
     grid-template-rows: 6% 6% 6% 6% 23% 23% 6% 1% 25% 4% 6%;
     grid-template-areas: 
     "lNombre . ."
