@@ -3,10 +3,15 @@ body{
 }
 
 h1{
+    display: flex;
     font-family: Impact, 'Arial Narrow Bold', sans-serif;
     font-size: 250%;
     background-color: #005580;
     color: #fff;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0 30px;
+    grid-area: title;
 }
 
 h2{
@@ -23,14 +28,6 @@ nav{
     text-align: center;
     vertical-align: middle;
     line-height: 20px;
-}
-
-
-.title{
-    text-align: center;
-    vertical-align: middle;
-    padding: 30px 0 30px;
-    grid-area: title;
 }
 
 .container{
@@ -74,7 +71,7 @@ nav{
 .formularioContainer{
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 160px 30px 75% auto;
+    grid-template-rows: 160px 30px 75%;
     grid-template-areas: 
     "title title"
     "nav nav"
