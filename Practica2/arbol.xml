@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE arbolGenialogico SYSTEM "arbol.dtd">
+
+<arbolGenialogico>
+    <persona nombre="Raúl" apellidos="Álvarez Álvarez" fechaNacimiento="31 marzo 1999">
+        <lugarNacimiento>Avilés</lugarNacimiento>
+        <coordenadasNacimiento>43.55187634443899, -5.936023851831471</coordenadasNacimiento>
+        <fechaFallecimiento>-</fechaFallecimiento>
+        <coordenadasFallecimiento>-</coordenadasFallecimiento>
+        <fotografia></fotografia>
+        <comentarios>Soy yo</comentarios>
+        
+        <persona nombre="Padre" apellidos="Álvarez Álvarez" fechaNacimiento="31 marzo 1999">
+            <lugarNacimiento>Avilés</lugarNacimiento>
+            <coordenadasNacimiento>43.55187634443899, -5.936023851831471</coordenadasNacimiento>
+            <fechaFallecimiento>-</fechaFallecimiento>
+            <coordenadasFallecimiento>-</coordenadasFallecimiento>
+            <fotografia></fotografia>
+            <comentarios>Soy yo</comentarios>
+
+            <persona nombre="Abuelo paterno" apellidos="Álvarez Álvarez" fechaNacimiento="31 marzo 1999">
+                <lugarNacimiento>Avilés</lugarNacimiento>
+                <coordenadasNacimiento>43.55187634443899, -5.936023851831471</coordenadasNacimiento>
+                <fechaFallecimiento>-</fechaFallecimiento>
+                <coordenadasFallecimiento>-</coordenadasFallecimiento>
+                <fotografia></fotografia>
+                <comentarios>Soy yo</comentarios>
+
+                <persona nombre="Bisabuelo p1" apellidos="Álvarez Álvarez" fechaNacimiento="31 marzo 1999">
+                    <lugarNacimiento>Avilés</lugarNacimiento>
+                    <coordenadasNacimiento>43.55187634443899, -5.936023851831471</coordenadasNacimiento>
+                    <fechaFallecimiento>-</fechaFallecimiento>
+                    <coordenadasFallecimiento>-</coordenadasFallecimiento>
+                    <fotografia></fotografia>
+                    <comentarios>Soy yo</comentarios>
+                </persona>                <!-- Fin bisabuelo paterno1-->
+
+
+                <persona nombre="Bisabuela p1" apellidos="Álvarez Álvarez" fechaNacimiento="31 marzo 1999">
+                    <lugarNacimiento>Avilés</lugarNacimiento>
+                    <coordenadasNacimiento>43.55187634443899, -5.936023851831471</coordenadasNacimiento>
+                    <fechaFallecimiento>-</fechaFallecimiento>
+                    <coordenadasFallecimiento>-</coordenadasFallecimiento>
+                    <fotografia></fotografia>
+                    <comentarios>Soy yo</comentarios>
+                </persona>                <!-- Fin bisabuela paterna1-->
+
+            </persona>            <!-- Fin abuelo paterno-->
+
+
+            <persona nombre="abuela paterna" apellidos="Álvarez Álvarez" fechaNacimiento="31 marzo 1999">
+                <lugarNacimiento>Avilés</lugarNacimiento>
+                <coordenadasNacimiento>43.55187634443899, -5.936023851831471</coordenadasNacimiento>
+                <fechaFallecimiento>-</fechaFallecimiento>
+                <coordenadasFallecimiento>-</coordenadasFallecimiento>
+                <fotografia></fotografia>
+                <comentarios>Soy yo</comentarios>
+
+                <persona nombre="Bisabuelo p2" apellidos="Álvarez Álvarez" fechaNacimiento="31 marzo 1999">
+                    <lugarNacimiento>Avilés</lugarNacimiento>
+                    <coordenadasNacimiento>43.55187634443899, -5.936023851831471</coordenadasNacimiento>
+                    <fechaFallecimiento>-</fechaFallecimiento>
+                    <coordenadasFallecimiento>-</coordenadasFallecimiento>
+                    <fotografia></fotografia>
+                    <comentarios>Soy yo</comentarios>
+                </persona>                <!-- Fin bisabuelo paterno2-->
+
+
+                <persona nombre="Bisabuela p2" apellidos="Álvarez Álvarez" fechaNacimiento="31 marzo 1999">
+                    <lugarNacimiento>Avilés</lugarNacimiento>
+                    <coordenadasNacimiento>43.55187634443899, -5.936023851831471</coordenadasNacimiento>
+                    <fechaFallecimiento>-</fechaFallecimiento>
+                    <coordenadasFallecimiento>-</coordenadasFallecimiento>
+                    <fotografia></fotografia>
+                    <comentarios>Soy yo</comentarios>
+                </persona>                <!-- Fin bisabuela paterna2-->
+            </persona>            <!-- Fin abuela paterna-->
+        </persona>        <!-- Fin padre-->
+
+        <persona nombre="madre" apellidos="Álvarez Álvarez" fechaNacimiento="31 marzo 1999">
+            <lugarNacimiento>Avilés</lugarNacimiento>
+            <coordenadasNacimiento>43.55187634443899, -5.936023851831471</coordenadasNacimiento>
+            <fechaFallecimiento>-</fechaFallecimiento>
+            <coordenadasFallecimiento>-</coordenadasFallecimiento>
+            <fotografia></fotografia>
+            <comentarios>Soy yo</comentarios>
+
+            <persona nombre="Abuelo materno" apellidos="Álvarez Álvarez" fechaNacimiento="31 marzo 1999">
+                <lugarNacimiento>Avilés</lugarNacimiento>
+                <coordenadasNacimiento>43.55187634443899, -5.936023851831471</coordenadasNacimiento>
+                <fechaFallecimiento>-</fechaFallecimiento>
+                <coordenadasFallecimiento>-</coordenadasFallecimiento>
+                <fotografia></fotografia>
+                <comentarios>Soy yo</comentarios>
+
+                <persona nombre="Bisabuelo m1" apellidos="Álvarez Álvarez" fechaNacimiento="31 marzo 1999">
+                    <lugarNacimiento>Avilés</lugarNacimiento>
+                    <coordenadasNacimiento>43.55187634443899, -5.936023851831471</coordenadasNacimiento>
+                    <fechaFallecimiento>-</fechaFallecimiento>
+                    <coordenadasFallecimiento>-</coordenadasFallecimiento>
+                    <fotografia></fotografia>
+                    <comentarios>Soy yo</comentarios>
+                </persona>                <!-- Fin bisabuelo materno1-->
+
+
+                <persona nombre="Bisabuela m1" apellidos="Álvarez Álvarez" fechaNacimiento="31 marzo 1999">
+                    <lugarNacimiento>Avilés</lugarNacimiento>
+                    <coordenadasNacimiento>43.55187634443899, -5.936023851831471</coordenadasNacimiento>
+                    <fechaFallecimiento>-</fechaFallecimiento>
+                    <coordenadasFallecimiento>-</coordenadasFallecimiento>
+                    <fotografia></fotografia>
+                    <comentarios>Soy yo</comentarios>
+                </persona>                <!-- Fin bisabuela materna1-->
+
+            </persona>            <!-- Fin abuelo materno-->
+
+
+            <persona nombre="abuela materna" apellidos="Álvarez Álvarez" fechaNacimiento="31 marzo 1999">
+                <lugarNacimiento>Avilés</lugarNacimiento>
+                <coordenadasNacimiento>43.55187634443899, -5.936023851831471</coordenadasNacimiento>
+                <fechaFallecimiento>-</fechaFallecimiento>
+                <coordenadasFallecimiento>-</coordenadasFallecimiento>
+                <fotografia></fotografia>
+                <comentarios>Soy yo</comentarios>
+
+                <persona nombre="Bisabuelo m2" apellidos="Álvarez Álvarez" fechaNacimiento="31 marzo 1999">
+                    <lugarNacimiento>Avilés</lugarNacimiento>
+                    <coordenadasNacimiento>43.55187634443899, -5.936023851831471</coordenadasNacimiento>
+                    <fechaFallecimiento>-</fechaFallecimiento>
+                    <coordenadasFallecimiento>-</coordenadasFallecimiento>
+                    <fotografia></fotografia>
+                    <comentarios>Soy yo</comentarios>
+                </persona>                <!-- Fin bisabuelo materno2-->
+
+
+                <persona nombre="Bisabuela m2" apellidos="Álvarez Álvarez" fechaNacimiento="31 marzo 1999">
+                    <lugarNacimiento>Avilés</lugarNacimiento>
+                    <coordenadasNacimiento>43.55187634443899, -5.936023851831471</coordenadasNacimiento>
+                    <fechaFallecimiento>-</fechaFallecimiento>
+                    <coordenadasFallecimiento>-</coordenadasFallecimiento>
+                    <fotografia></fotografia>
+                    <comentarios>Soy yo</comentarios>
+                </persona>                <!-- Fin bisabuela materna2-->
+
+            </persona>            <!-- Fin abuela materna-->
+
+        </persona>        <!-- Fin madre -->
+
+    </persona>    <!-- Fin yo-->
+</arbolGenialogico>
