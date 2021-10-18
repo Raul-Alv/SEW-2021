@@ -4,44 +4,60 @@ fieldset {
 
 #labelNombre{
     grid-area: lNombre;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 #nombre{
     grid-area: nombre;
-    padding: 12px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 15px;
 }
 
 #labelEmail{
     grid-area: lEmail;
+    margin-top: 20px;
+    margin-bottom: 5px;
 }
 
 #email{
     grid-area: email;
-    padding: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 15px;
 }
 
 #fConocer{
     grid-area: conocer;
-    padding: 12px;
+    margin-top:30px;
+    margin-bottom: 5px;
 }
 
 #fUsar{
     grid-area: usar;
-    padding: 12px;
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
 
 #labelOpinion{
     resize: none;
+    margin-top: 20px;
+    margin-bottom: 5px;
     grid-area: lOpinion;
+    
 }
 
 #opinion{
     resize: none;
     grid-area: opinion;
-    padding: 12px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    padding: 10px;
 }
 
 #enviar{
+    margin: 10px;
     grid-area: enviar;
 }
 
@@ -50,7 +66,7 @@ fieldset {
     grid-area: form;
     display: grid;
     grid-template-columns: 550px 100px 50px;
-    grid-template-rows: 7% 7% 7% 7% 25% 25% 7% 1% 25% 4% 6%;
+    grid-template-rows: 3% 4% 3% 4% 25% 25% 3% 25% 8%;
     grid-template-areas: 
     "lNombre . ."
     "nombre . ."
@@ -59,9 +75,7 @@ fieldset {
     "conocer conocer ."
     "usar usar ."
     "lOpinion . ."
-    ". . ."
     "opinion . ."
-    ". . ."
     ". enviar ."
     ;
 }

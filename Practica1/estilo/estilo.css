@@ -33,15 +33,6 @@ nav{
     grid-area: title;
 }
 
-/*
-.navigation{
-    grid-area: nav;
-    justify-self: stretch;
-    text-align: center;
-    vertical-align: middle;
-    line-height: 20px;
-}
-*/
 .container{
     grid-area: main;
     display: flex;
@@ -64,7 +55,8 @@ nav{
     "title title"
     "nav nav"
     "main aside"
-    "main aside";
+    "main aside"
+    "footer footer";
 }
 
 .javaContainer, .premiosContainer{
@@ -75,18 +67,20 @@ nav{
     "title title"
     "nav nav"
     "main main"
-    "main main";
+    "main main"
+    "footer footer";
 }
 
 .formularioContainer{
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 160px 30px 75%;
+    grid-template-rows: 160px 30px 75% auto;
     grid-template-areas: 
     "title title"
     "nav nav"
     "form ."
-    "form .";
+    "form ."
+    "footer footer";
 }
 
 #fotoRyan{
@@ -94,4 +88,11 @@ nav{
     height: auto;
 }
 
+footer{
+    grid-area: footer;
+    background-color: #D9FF52;
+}
 
+#autor{
+    text-align: center;
+}
