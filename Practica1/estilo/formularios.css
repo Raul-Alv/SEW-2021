@@ -1,72 +1,87 @@
+/* specificity = 1 */
 fieldset {
-    width: 40%;
+    width: 50%;
+    margin-top:5px;
+    margin-bottom: 5px;
 }
 
+/* specificity = 1 */
+label{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/* specificity = 11 */
+input[type=text], input[type=email]{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 7px;
+    font-size: 12pt;
+}
+
+/* specificity = 100 */
 #labelNombre{
     grid-area: lNombre;
-    margin-top: 5px;
-    margin-bottom: 5px;
 }
 
+/* specificity = 100 */
 #nombre{
     grid-area: nombre;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    padding: 15px;
 }
 
+/* specificity = 100 */
 #labelEmail{
     grid-area: lEmail;
-    margin-top: 20px;
-    margin-bottom: 5px;
 }
 
+/* specificity = 100 */
 #email{
     grid-area: email;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding: 15px;
 }
 
+/* specificity = 100 */
 #fConocer{
     grid-area: conocer;
-    margin-top:30px;
-    margin-bottom: 5px;
 }
 
+/* specificity = 100 */
 #fUsar{
     grid-area: usar;
-    margin-top: 10px;
-    margin-bottom: 5px;
 }
 
+/* specificity = 100 */
 #labelOpinion{
-    resize: none;
-    margin-top: 20px;
-    margin-bottom: 5px;
     grid-area: lOpinion;
-    
 }
 
+/* specificity = 1 */
+textarea{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 7px;
+    font-size: 12pt;
+}
+
+/* specificity = 100 */
 #opinion{
     resize: none;
     grid-area: opinion;
-    margin-top: 20px;
-    margin-bottom: 5px;
-    padding: 10px;
+    
 }
 
+/* specificity = 100 */
 #enviar{
     margin: 10px;
     grid-area: enviar;
 }
 
+/* specificity = 10 */
 .formulario{
-    font-size: 18px;
+    /* font-size: 18px; */
     grid-area: form;
     display: grid;
     grid-template-columns: 550px 100px 50px;
-    grid-template-rows: 3% 4% 3% 4% 25% 25% 3% 25% 8%;
+    grid-template-rows: auto;
     grid-template-areas: 
     "lNombre . ."
     "nombre . ."

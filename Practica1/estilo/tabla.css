@@ -1,11 +1,14 @@
+/* specificity = 1 */
 table,th,td{
     border-style: ridge;
 }
 
+/* specificity = 1 */
 table{
     width: 70%;
 }
 
+/* specificity = 10 */
 .name{
     font-style: italic;
 }
