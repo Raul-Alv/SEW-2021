@@ -105,3 +105,18 @@ footer{
 #autor{
     text-align: center;
 }
+
+/* specificity = 2 */
+nav>a{
+    font-weight: bolder;
+}
+
+/* specificity = 12 */
+nav>a:link{
+    color: #000099;
+}
+
+/* specificity = 12 */
+nav>a:visited{
+    color: #5B0481;
+}
