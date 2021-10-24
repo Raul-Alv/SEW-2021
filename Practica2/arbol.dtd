@@ -1,9 +1,12 @@
 <!ELEMENT arbolGenialogico (persona+)>
-<!ELEMENT persona (lugarNacimiento, coordenadasNacimiento, fechaFallecimiento, coordenadasFallecimiento, fotografia+, comentarios+, persona?, persona?)>
+<!ELEMENT persona (lugarNacimiento, coordenadasNacimiento, fechaFallecimiento?, lugarFallecimiento?, coordenadasFallecimiento?, fotografia+, comentarios+, persona?, persona?)>
 <!ELEMENT lugarNacimiento (#PCDATA)>
-<!ELEMENT coordenadasNacimiento (#PCDATA)>
+<!ELEMENT coordenadasNacimiento (latitud, longitud)>
+<!ELEMENT latitud (#PCDATA)>
+<!ELEMENT longitud (#PCDATA)>
+<!ELEMENT lugarFallecimiento (#PCDATA)>
 <!ELEMENT fechaFallecimiento (#PCDATA)>
-<!ELEMENT coordenadasFallecimiento (#PCDATA)>
+<!ELEMENT coordenadasFallecimiento (latitud, longitud)>
 <!ELEMENT fotografia (#PCDATA)>
 <!ELEMENT comentarios (#PCDATA)>
 <!ATTLIST persona
