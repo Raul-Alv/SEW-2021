@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://tempuri.org/arbol" elementFormDefault="qualified" targetNamespace="http://tempuri.org/arbol" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    
+  
+  <xs:element name="arbolGenialogico">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="unbounded" ref="persona" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="persona">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="lugarNacimiento" />
+        <xs:element ref="coordenadasNacimiento" />
+        <xs:element minOccurs="0" maxOccurs="1" ref="fechaFallecimiento" />
+        <xs:element minOccurs="0" maxOccurs="1" ref="lugarFallecimiento" />
+        <xs:element minOccurs="0" maxOccurs="1" ref="coordenadasFallecimiento" />
+        <xs:element minOccurs="1" maxOccurs="unbounded" ref="fotografia" />
+        <xs:element ref="comentarios" />
+        <xs:element minOccurs="0" maxOccurs="1" ref="persona" />
+        <xs:element minOccurs="0" maxOccurs="1" ref="persona" />
+      </xs:sequence>
+      <xs:attribute name="nombre" type="xs:string" use="required" />
+      <xs:attribute name="apellidos" type="xs:string" use="required" />
+      <xs:attribute name="fechaNacimiento" type="fecha" use="required" />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="lugarNacimiento" type="xs:string" />
+  <xs:element name="coordenadasNacimiento">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="latitud" />
+        <xs:element ref="longitud" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="latitud" type="xs:decimal" />
+  <xs:element name="longitud" type="xs:decimal" />
+  <xs:element name="lugarFallecimiento" type="xs:string" />
+  <xs:element name="fechaFallecimiento" type="fecha" />
+  <xs:element name="coordenadasFallecimiento">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="latitud" />
+        <xs:element ref="longitud" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="fotografia" type="xs:decimal" />
+  <xs:element name="comentarios" type="xs:decimal" />
+  <xs:simpleType name="fecha">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[0-3]{1}[0-9]{1}/[0,1]{1}[0-9]{1}/1[0-9]{3}"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>
