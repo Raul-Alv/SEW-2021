@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE arbolGenialogico SYSTEM "arbol.dtd">
 
-<arbolGenialogico xsi:schemaLocation="arbol.xsd" xmlns="http://tempuri.org/arbol" xmlns:xsi="arbol.xsd">
-	<persona nombre="Raúl" apellidos="Álvarez Álvarez" fechaNacimiento="31-03-1999">
+<arbolGenialogico xmlns="http://tempuri.org/arbol" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="arbol.xsd">
+	<persona nombre="Raúl" apellidos="Álvarez Álvarez" fechaNacimiento="1999-03-31">
 		<lugarNacimiento>Avilés</lugarNacimiento>
 		<coordenadasNacimiento>
 			<latitud>43.55187634443899</latitud>
@@ -11,7 +11,7 @@
 		<fotografia>multimedia/yo.png</fotografia>
 		<comentarios>Soy yo</comentarios>
 
-		<persona nombre="George" apellidos="Clooney" fechaNacimiento="6-05-1961">
+		<persona nombre="George" apellidos="Clooney" fechaNacimiento="1961-05-06">
 			<lugarNacimiento>Lexington</lugarNacimiento>
 			<coordenadasNacimiento>
 				<latitud>38.029722</latitud>
@@ -20,7 +20,7 @@
 			<fotografia>multimedia/padre.jpg</fotografia>
 			<comentarios>Actor americano conocido por peliculas como Gravity</comentarios>
 
-			<persona nombre="Muhammad" apellidos="Ali" fechaNacimiento="17-01-1942">
+			<persona nombre="Muhammad" apellidos="Ali" fechaNacimiento="1942-01-17">
 				<lugarNacimiento>Louisville</lugarNacimiento>
 				<coordenadasNacimiento>
 					<latitud>38.256111</latitud>
@@ -35,7 +35,7 @@
 				<fotografia>multimedia/abueloPaterno.jpg</fotografia>
 				<comentarios>Boxeador estadounidense</comentarios>
 
-				<persona nombre="Otto" apellidos="Von Bismarck-Schönhausen" fechaNacimiento="1-04-1815">
+				<persona nombre="Otto" apellidos="Von Bismarck-Schönhausen" fechaNacimiento="1815-04-01">
 					<lugarNacimiento>Schönhausen</lugarNacimiento>
 					<coordenadasNacimiento>
 						<latitud>52.578611</latitud>
@@ -53,7 +53,7 @@
 				<!-- Fin bisabuelo paterno1-->
 
 
-				<persona nombre="Anna" apellidos="Pávlovna Pávlova" fechaNacimiento="12-02-1881">
+				<persona nombre="Anna" apellidos="Pávlovna Pávlova" fechaNacimiento="1881-02-12">
 					<lugarNacimiento>San Petersburgo</lugarNacimiento>
 					<coordenadasNacimiento>
 						<latitud>59.95</latitud>
@@ -74,7 +74,7 @@
 			<!-- Fin abuelo paterno-->
 
 
-			<persona nombre="Agnes" apellidos="Gonxha Bojaxhiu" fechaNacimiento="26-08-1910">
+			<persona nombre="Agnes" apellidos="Gonxha Bojaxhiu" fechaNacimiento="1910-08-26">
 				<lugarNacimiento>Skopie</lugarNacimiento>
 				<coordenadasNacimiento>
 					<latitud>41.983333</latitud>
@@ -89,7 +89,7 @@
 				<fotografia>multimedia/abuela.jpg</fotografia>
 				<comentarios>Teresa de Calcuta</comentarios>
 
-				<persona nombre="Albert" apellidos="Einstein" fechaNacimiento="14-03-1879">
+				<persona nombre="Albert" apellidos="Einstein" fechaNacimiento="1879-03-14">
 					<lugarNacimiento>Ulm</lugarNacimiento>
 					<coordenadasNacimiento>
 						<latitud>48.39841</latitud>
@@ -107,7 +107,7 @@
 				<!-- Fin bisabuelo paterno2-->
 
 
-				<persona nombre="Maria" apellidos="Salomea Skłodowska-Curie" fechaNacimiento="7-11-1867">
+				<persona nombre="Maria" apellidos="Salomea Skłodowska-Curie" fechaNacimiento="1867-11-07">
 					<lugarNacimiento>Varsovia</lugarNacimiento>
 					<coordenadasNacimiento>
 						<latitud>52.216667</latitud>
@@ -128,7 +128,7 @@
 		</persona>
 		<!-- Fin padre-->
 
-		<persona nombre="Beyoncé" apellidos="Knowles-Carter" fechaNacimiento="4-09-1981">
+		<persona nombre="Beyoncé" apellidos="Knowles-Carter" fechaNacimiento="1981-09-04">
 			<lugarNacimiento>Houston</lugarNacimiento>
 			<coordenadasNacimiento>
 				<latitud>29.762778</latitud>
@@ -137,7 +137,7 @@
 			<fotografia>multimedia/madre.png</fotografia>
 			<comentarios>Cantante americana</comentarios>
 
-			<persona nombre="Elvis" apellidos="Presley" fechaNacimiento="8-01-1935">
+			<persona nombre="Elvis" apellidos="Presley" fechaNacimiento="1935-01-08">
 				<lugarNacimiento>Tupelo</lugarNacimiento>
 				<coordenadasNacimiento>
 					<latitud>34.259444</latitud>
@@ -152,7 +152,7 @@
 				<fotografia>multimedia/abueloMaterno.png</fotografia>
 				<comentarios>Cantante estadounidense conocido como el rey del rock and roll</comentarios>
 
-				<persona nombre="Pablo" apellidos="Ruiz Picasso" fechaNacimiento="25-10-1881">
+				<persona nombre="Pablo" apellidos="Ruiz Picasso" fechaNacimiento="1881-10-25">
 					<lugarNacimiento>Málaga</lugarNacimiento>
 					<coordenadasNacimiento>
 						<latitud>36.716667</latitud>
@@ -170,7 +170,7 @@
 				<!-- Fin bisabuelo materno1-->
 
 
-				<persona nombre="Rosa" apellidos="Luxemburgo" fechaNacimiento="5-03-1871">
+				<persona nombre="Rosa" apellidos="Luxemburgo" fechaNacimiento="1871-03-05">
 					<lugarNacimiento>Zamość</lugarNacimiento>
 					<coordenadasNacimiento>
 						<latitud>50.720556</latitud>
@@ -191,7 +191,7 @@
 			<!-- Fin abuelo materno-->
 
 
-			<persona nombre="Audrey" apellidos="Ruston" fechaNacimiento="4-05-1929">
+			<persona nombre="Audrey" apellidos="Ruston" fechaNacimiento="1929-05-04">
 				<lugarNacimiento>Bruselas</lugarNacimiento>
 				<coordenadasNacimiento>
 					<latitud>50.846667</latitud>
@@ -206,7 +206,7 @@
 				<fotografia>multimedia/abuelaMaterna.jpg</fotografia>
 				<comentarios>Actiz conocida por peliculas como Beakfast At Tiffany's</comentarios>
 
-				<persona nombre="Franklin" apellidos="Roosevelt" fechaNacimiento="30-01-1882">
+				<persona nombre="Franklin" apellidos="Roosevelt" fechaNacimiento="1882-01-30">
 					<lugarNacimiento>Hyde Park</lugarNacimiento>
 					<coordenadasNacimiento>
 						<latitud>41.783333</latitud>
@@ -224,7 +224,7 @@
 				<!-- Fin bisabuelo materno2-->
 
 
-				<persona nombre="Anna Eleanor" apellidos="Roosevelt" fechaNacimiento="11-10-1884">
+				<persona nombre="Anna Eleanor" apellidos="Roosevelt" fechaNacimiento="1884-10-11">
 					<lugarNacimiento>Nueva York</lugarNacimiento>
 					<coordenadasNacimiento>
 						<latitud>40.712728</latitud>
