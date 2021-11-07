@@ -1,0 +1,23 @@
+h1{
+    color: teal
+}
+
+h2{
+    color: slateblue
+}
+
+h3{
+    color: darkred
+}
+
+h4{
+    color: firebrick;
+}
+
+p{
+    color: darkslategray;
+}
+
+h1, h2, h3, h4, p{
+    text-align: center;
+}
