@@ -8,54 +8,38 @@
     </head>
     <body>
         <h1>Calculadora Básica</h1>
-        <form name="calculadora">
+        <form name="calculadora" id="container">
+            <input title="result" type="text" class="result" name = "result" id="result" disabled>
             
-                
-                    
-                        <input title="result" type="text" class="result" name = "result" id="result" disabled>
-                    
-                
-                
-                
-                    <input type="button" class="memory" name="show" value="mrc" onclick="calc.mRecall()">
-                    <input type="button" class="memory" name="addmem" value="m+" onclick="calc.mPlus(document.getElementById('result').value)">
-                    <input type="button" class="memory" name="removemem" value="m-" onclick="calc.mMinus(result.value)">
-                    <input type="button" class="operator" name = "division" value="/" 
-                        onclick="calc.displayValue('/')">
-                
-
-                
-                    <input type="button" class="numbers" name = "seven" value="7" onclick="calc.displayValue('7')">
-                    <input type="button" class="numbers" name = "eight" value="8" onclick="calc.displayValue('8')">
-                    <input type="button" class="numbers" name = "nine" value="9" onclick="calc.displayValue('9')">
-                    <input type="button" class="operator" name = "multiplication" value="*" 
-                        onclick="calc.displayValue('*')">
-                
-
-                
-                    <input type="button" class="numbers" name = "four" value="4" onclick="calc.displayValue('4')">
-                    <input type="button" class="numbers" name = "five" value="5" onclick="calc.displayValue('5')">
-                    <input type="button" class="numbers" name = "six" value="6" onclick="calc.displayValue('6')">
-                    <input type="button" class="operator" name = "minus" value="-" 
-                        onclick="calc.displayValue('-')">
-                
-                
-                
-                    <input type="button" class="numbers" name = "one" value="1" onclick="calc.displayValue('1')">
-                    <input type="button" class="numbers" name = "two" value="2" onclick="calc.displayValue('2')">
-                    <input type="button" class="numbers" name = "three" value="3" onclick="calc.displayValue('3')">
-                    <input type="button" class="operator" name = "sum" value="+" 
-                        onclick="calc.displayValue('+')">
-                
-
-                
-                    <input type="button" class="numbers" name = "zero" value="0" onclick="calc.displayValue('0')">
-                    <input type="button" class="numbers" name = "dot" value="." onclick="calc.displayValue('.')">
-                    <input type="button" class="operator" name = "clear" value="C" onclick="calc.clearAll()">
-                    <input type="button" class="operator" name = "equals" value="=" 
-                        onclick="calc.calculateResult()">
-                
-            
+            <input type="button" class="memory" name="show" value="mrc" onclick="calc.mRecall()">
+            <input type="button" class="memory" name="addmem" value="m+" onclick="calc.mPlus(document.getElementById('result').value)">
+            <input type="button" class="memory" name="removemem" value="m-" onclick="calc.mMinus(result.value)">
+            <input type="button" class="operator" name = "division" value="/" 
+                onclick="calc.displayValue('/')">
+        
+            <input type="button" class="numbers" name = "seven" value="7" onclick="calc.displayValue('7')">
+            <input type="button" class="numbers" name = "eight" value="8" onclick="calc.displayValue('8')">
+            <input type="button" class="numbers" name = "nine" value="9" onclick="calc.displayValue('9')">
+            <input type="button" class="operator" name = "multiplication" value="*" 
+                onclick="calc.displayValue('*')">
+        
+            <input type="button" class="numbers" name = "four" value="4" onclick="calc.displayValue('4')">
+            <input type="button" class="numbers" name = "five" value="5" onclick="calc.displayValue('5')">
+            <input type="button" class="numbers" name = "six" value="6" onclick="calc.displayValue('6')">
+            <input type="button" class="operator" name = "minus" value="-" 
+                onclick="calc.displayValue('-')">
+        
+            <input type="button" class="numbers" name = "one" value="1" onclick="calc.displayValue('1')">
+            <input type="button" class="numbers" name = "two" value="2" onclick="calc.displayValue('2')">
+            <input type="button" class="numbers" name = "three" value="3" onclick="calc.displayValue('3')">
+            <input type="button" class="operator" name = "sum" value="+" 
+                onclick="calc.displayValue('+')">
+        
+            <input type="button" class="numbers" name = "zero" value="0" onclick="calc.displayValue('0')">
+            <input type="button" class="numbers" name = "dot" value="." onclick="calc.displayValue('.')">
+            <input type="button" class="operator" name = "clear" value="C" onclick="calc.clearAll()">
+            <input type="button" class="operator" name = "equals" value="=" 
+                onclick="calc.calculateResult()">
         </form>
         <p>
             <a href="http://validator.w3.org/check/referer" hreflang="en-us">
