@@ -7,6 +7,17 @@ form{
     width: 222px;
     border-radius: 10px;
     padding: 5px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "result result result result"
+    "mShow addMem remMem division"
+    "seven eight nine mult"
+    "four five six sub"
+    "one two three add"
+    "zero dot clear equals"
+    ;
 }
 
 .result{
@@ -46,6 +57,67 @@ form{
     text-align: center;
 }
 
-tr{
-    display: inline-block;
+input[name=show]{
+    grid-area:mShow;
+}
+input[name=addmem]{
+    grid-area:addMem;
+}
+input[name=removemem]{
+    grid-area:remMem;
+}
+input[name=division]{
+    grid-area:division;
+}
+
+input[name=seven]{
+    grid-area:seven;
+}
+input[name=eight]{
+    grid-area:eight;
+}
+input[name=nine]{
+    grid-area:nine;
+}
+input[name=multiplication]{
+    grid-area:mult;
+}
+
+input[name=four]{
+    grid-area:four;
+}
+input[name=five]{
+    grid-area:five;
+}
+input[name=six]{
+    grid-area:six;
+}
+input[name=minus]{
+    grid-area:sub;
+}
+
+input[name=one]{
+    grid-area:one;
+}
+input[name=two]{
+    grid-area:two;
+}
+input[name=three]{
+    grid-area:three;
+}
+input[name=sum]{
+    grid-area:add;
+}
+
+input[name=zero]{
+    grid-area:zero;
+}
+input[name=dot]{
+    grid-area:dot;
+}
+input[name=clear]{
+    grid-area:clear;
+}
+input[name=equals]{
+    grid-area:equals;
 }
