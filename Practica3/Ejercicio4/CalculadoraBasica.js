@@ -78,13 +78,11 @@ class CalculadoraBasica{
                     break;
                 }
             }
-            //event.preventDefault();
         });
     }
 
     
     digits(number){
-        
         let a = new Number(number);
         this.displayValue(a);
     }

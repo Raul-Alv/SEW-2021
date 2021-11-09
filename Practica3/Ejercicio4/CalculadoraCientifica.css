@@ -1,0 +1,172 @@
+body{
+    background-color: lightgray;
+}
+
+form{
+    background-color: #d3d3d3;
+    /* height: 4.375em; */
+    width: 20.5625em;
+    font-size: large;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 10% 10% 10% 10% 10% 10% 10% 10%;
+    grid-template-areas: 
+    "result result result result result"
+    "mShow addMem remMem . ."
+    "square power sin cos tang"
+    "root power10 log exp mod"
+    ". clearScreen clear delete division"
+    "pi seven eight nine mult"
+    "factorial four five six sub"
+    "masMenos one two three add"
+    "abrirP cerrarP zero dot equals"
+    ;
+}
+
+.result{
+    background-color: #7b9b60;
+    padding: 15px;
+    margin: 5px;
+    
+    grid-area: result;
+}
+
+.memory{
+    background-color: #e7e7e7;
+    /* width:5em; */
+    font-weight: 600;
+}
+.operator{
+    background-color: #e7e7e7;
+    /* width: 5em; */
+    /* height: 2.5em; */
+    font-weight: 600;
+    font-size: large;
+}
+
+.numbers{
+    background-color: white;
+    /* width: 5em; */
+    /* height: 2.5em; */
+    font-weight: 900;
+    font-size: large;
+}
+
+input[name=show]{
+    grid-area:mShow;
+}
+input[name=addmem]{
+    grid-area:addMem;
+}
+input[name=removemem]{
+    grid-area:remMem;
+}
+
+input[name=square]{
+    grid-area:square;
+}
+input[name=power]{
+    grid-area:power;
+}
+input[name=sin]{
+    grid-area:sin;
+}
+input[name=cos]{
+    grid-area:cos;
+}
+input[name=tang]{
+    grid-area:tang;
+}
+
+input[name=root]{
+    grid-area:root;
+}
+input[name=power10]{
+    grid-area:power10;
+}
+input[name=log]{
+    grid-area:log;
+}
+input[name=exp]{
+    grid-area:exp;
+}
+input[name=mod]{
+    grid-area:mod;
+}
+
+input[name=clearScreen]{
+    grid-area:clearScreen;
+}
+input[name=clear]{
+    grid-area:clear;
+}
+input[name=delete]{
+    grid-area:delete;
+}
+input[name=division]{
+    grid-area:division;
+}
+
+input[name=pi]{
+    grid-area:pi;
+}
+input[name=seven]{
+    grid-area:seven;
+}
+input[name=eight]{
+    grid-area:eight;
+}
+input[name=nine]{
+    grid-area:nine;
+}
+input[name=multiplication]{
+    grid-area:mult;
+}
+
+input[name=factorial]{
+    grid-area:factorial;
+}
+input[name=four]{
+    grid-area:four;
+}
+input[name=five]{
+    grid-area:five;
+}
+input[name=six]{
+    grid-area:six;
+}
+input[name=minus]{
+    grid-area:sub;
+}
+
+input[name=masMenos]{
+    grid-area:masMenos;
+}
+input[name=one]{
+    grid-area:one;
+}
+input[name=two]{
+    grid-area:two;
+}
+input[name=three]{
+    grid-area:three;
+}
+input[name=sum]{
+    grid-area:add;
+}
+
+input[name=abrirParentesis]{
+    grid-area:abrirP;
+}
+input[name=cerrarParentesis]{
+    grid-area:cerrarP;
+}
+input[name=zero]{
+    grid-area:zero;
+}
+input[name=dot]{
+    grid-area:dot;
+}
+input[name=equals]{
+    grid-area:equals;
+}
