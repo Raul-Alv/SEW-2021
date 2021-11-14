@@ -147,4 +147,3 @@ class CalculadoraBasica{
     
 }
 
-var calc = new CalculadoraBasica();

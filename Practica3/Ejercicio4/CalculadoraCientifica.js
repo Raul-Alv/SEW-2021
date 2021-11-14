@@ -1,4 +1,4 @@
-class ClaculadoraCientifica extends CalculadoraBasica{
+class CalculadoraCientifica extends CalculadoraBasica{
     constructor(val){
         super(val);
     }
@@ -9,31 +9,31 @@ class ClaculadoraCientifica extends CalculadoraBasica{
     }
 
     power(){
-
+        document.getElementById("result").value += "**";
     }
 
     sin(){
         var sin = Math.sin(eval(document.getElementById("result").value));
-        document.getElementById("result").value = sin;
+        document.getElementById("result").value += sin;
     }
 
     cos(){
         var cos = Math.cos(eval(document.getElementById("result").value));
-        document.getElementById("result").value = cos;
+        document.getElementById("result").value += cos;
     }
 
     tan(){
         var tan = Math.tan(eval(document.getElementById("result").value));
-        document.getElementById("result").value = tan;
+        document.getElementById("result").value += tan;
     }
 
     root(){
         var raiz = Math.sqrt(eval(document.getElementById("result").value));
-        document.getElementById("result").value = raiz;
+        document.getElementById("result").value += raiz;
     }
 
     power10(){
-
+        document.getElementById("result").value += "10**";
     }
 
     log(){
@@ -47,15 +47,17 @@ class ClaculadoraCientifica extends CalculadoraBasica{
     }
 
     mod(){
-
+        document.getElementById("result").value += "%";
     }
 
     clearOne(){
-
+        var value = document.getElementById("result").value;
+        var a = value.substr(0, value.length - 1);
+        document.getElementById("result").value = a;
     }
 
-    delete(){
-
+    deleteNumber(){
+        var value = document.getElementById("result").value;
     }
 
     pi(){
@@ -84,3 +86,5 @@ class ClaculadoraCientifica extends CalculadoraBasica{
 
     }
 }
+
+var calc = new CalculadoraCientifica();

@@ -16,21 +16,21 @@
             <input type="button" class="memory" name="addmem" value="m+" onclick="calc.mPlus(document.getElementById('result').value)">
             <input type="button" class="memory" name="removemem" value="m-" onclick="calc.mMinus(result.value)">
             
-            <input type="button" class="operator" name="square" value="x²" onclick="calc.mRecall()">
-            <input type="button" class="operator" name="power" value="xʸ" onclick="calc.mPlus(document.getElementById('result').value)">
-            <input type="button" class="operator" name="sin" value="sin" onclick="calc.mMinus(result.value)">
-            <input type="button" class="operator" name = "cos" value="cos" onclick="calc.division()">
-            <input type="button" class="operator" name = "tang" value="tan" onclick="calc.division()">
+            <input type="button" class="operator" name="square" value="x²" onclick="calc.square()">
+            <input type="button" class="operator" name="power" value="xʸ" onclick="calc.power()">
+            <input type="button" class="operator" name="sin" value="sin" onclick="calc.sin()">
+            <input type="button" class="operator" name = "cos" value="cos" onclick="calc.cos()">
+            <input type="button" class="operator" name = "tang" value="tan" onclick="calc.tan()">
 
-            <input type="button" class="operator" name="root" value="√" onclick="calc.mRecall()">
-            <input type="button" class="operator" name="power10" value="10ˣ" onclick="calc.mPlus(document.getElementById('result').value)">
-            <input type="button" class="operator" name="log" value="log" onclick="calc.mMinus(result.value)">
-            <input type="button" class="operator" name = "exp" value="exp" onclick="calc.division()">
-            <input type="button" class="operator" name = "mod" value="Mod" onclick="calc.division()">
+            <input type="button" class="operator" name="root" value="√" onclick="calc.root()">
+            <input type="button" class="operator" name="power10" value="10ˣ" onclick="calc.power10()">
+            <input type="button" class="operator" name="log" value="log" onclick="calc.log()">
+            <input type="button" class="operator" name = "exp" value="exp" onclick="calc.exp()">
+            <input type="button" class="operator" name = "mod" value="Mod" onclick="calc.mod()">
 
             <input type="button" class="operator" name = "clearScreen" value="CE" onclick="calc.clearAll()">
             <input type="button" class="operator" name = "clear" value="C" onclick="calc.clearAll()">
-            <input type="button" class="operator" name = "delete" value="←" onclick="calc.clearAll()">
+            <input type="button" class="operator" name = "delete" value="←" onclick="calc.clearOne()">
             <input type="button" class="operator" name = "division" value="/" 
                 onclick="calc.division()">
         
