@@ -14,22 +14,22 @@ class CalculadoraCientifica extends CalculadoraBasica{
 
     sin(){
         var sin = Math.sin(eval(document.getElementById("result").value));
-        document.getElementById("result").value += sin;
+        document.getElementById("result").value = sin;
     }
 
     cos(){
         var cos = Math.cos(eval(document.getElementById("result").value));
-        document.getElementById("result").value += cos;
+        document.getElementById("result").value = cos;
     }
 
     tan(){
         var tan = Math.tan(eval(document.getElementById("result").value));
-        document.getElementById("result").value += tan;
+        document.getElementById("result").value = tan;
     }
 
     root(){
         var raiz = Math.sqrt(eval(document.getElementById("result").value));
-        document.getElementById("result").value += raiz;
+        document.getElementById("result").value = raiz;
     }
 
     power10(){
@@ -61,8 +61,8 @@ class CalculadoraCientifica extends CalculadoraBasica{
     }
 
     pi(){
-        let a =Math.pi;
-        this.displayValue(pi);
+        let a = Math.PI;
+        document.getElementById("result").value += a;
     }
 
     factorial(){
@@ -75,15 +75,15 @@ class CalculadoraCientifica extends CalculadoraBasica{
     }
 
     masMenos(){
-
+        
     }
 
     abrirParentesis(){
-
+        this.displayValue('(');
     }
 
     cerrarParentesis(){
-
+        this.displayValue(')');
     }
 }
 
