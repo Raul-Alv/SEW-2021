@@ -9,77 +9,81 @@ class CalculadoraBasica{
             switch (event.key){
                 case "1":{
                     let a = new Number('1');
-                    document.getElementById("result").value += a.toString();
+                    this.displayValue(a);
                     break;
                 }
                 case "2":{
                     let a = new Number('2');
-                    document.getElementById("result").value += a.toString();
+                    this.displayValue(a);
                     break;
                 }
                 case "3":{
                     let a = new Number('3');
-                    document.getElementById("result").value += a.toString();
+                    this.displayValue(a);
                     break;
                 }
                 case "4":{
                     let a = new Number('4');
-                    document.getElementById("result").value += a.toString();
+                    this.displayValue(a);
                     break;
                 }
                 case "5":{
                     let a = new Number('5');
-                    document.getElementById("result").value += a.toString();
+                    this.displayValue(a);
                     break;
                 }
                 case "6":{
                     let a = new Number('6');
-                    document.getElementById("result").value += a.toString();
+                    this.displayValue(a);
                     break;
                 }
                 case "7":{
                     let a = new Number('7');
-                    document.getElementById("result").value += a.toString();
+                    this.displayValue(a);
                     break;
                 }
                 case "8":{
                     let a = new Number('8');
-                    document.getElementById("result").value += a.toString();
+                    this.displayValue(a);
                     break;
                 }
                 case "9":{
                     let a = new Number('9');
-                    document.getElementById("result").value += a.toString();
+                    this.displayValue(a);
                     break;
                 }
                 case "0":{
                     let a = new Number('0');
-                    document.getElementById("result").value += a.toString();
+                    this.displayValue(a);
                     break;
                 }
                 case "+":{
-                    document.getElementById("result").value += '+';
+                    this.add();
                     break;
                 }
                 case "-":{
-                    document.getElementById("result").value += '-';
+                    this.subtract();
                     break;
                 }
                 case "*":{
-                    document.getElementById("result").value += '*';
+                    this.multiplication();
                     break;
                 }
                 case "/":{
-                    document.getElementById("result").value += '/';
+                    this.division();
                     break;
                 }
                 case ".":{
-                    document.getElementById("result").value += '.';
+                    this.point();
+                    break;
+                }
+                case "Enter":{
+                    this.equals();
                     break;
                 }
             }
             //event.preventDefault();
-        });
+        }.bind(this));
     }
 
     
@@ -111,10 +115,10 @@ class CalculadoraBasica{
     
     displayValue(val) {
         if(document.getElementById("result").value == ''){
-            document.getElementById("result").value = val.toString();
+            document.getElementById("result").value = val;
         }
         else{
-            document.getElementById("result").value += val.toString();
+            document.getElementById("result").value += val;
         }
     }
 

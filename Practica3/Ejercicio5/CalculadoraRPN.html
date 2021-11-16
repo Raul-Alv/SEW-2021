@@ -3,7 +3,7 @@
     <head>
         <link rel="stylesheet" href="CalculadoraRPN.css"/>
         <meta charset="UTF-8">
-        <title>Ejercicio 5</title>
+        <title>Calculadora RPN</title>
         <script src="CalculadoraRPN.js"></script>
     </head>
 
@@ -20,13 +20,13 @@
             <input type="button" class="memory" name="removemem" value="m-" onclick="calc.subMemory()">
             <input type="button" class="memory" name = "clearmem" value="mc" onclick="calc.clearMemory()">
         
-            <input type="button" class="operator" name="potencia" value="x^2" onclick="calc.square()">
             <input type="button" class="operator" name="seno" value="sin" onclick="calc.sin()">
             <input type="button" class="operator" name="coseno" value="cos" onclick="calc.cos()">
-            <input type="button" class="operator" name="tangente" value="tan" onclick="calc.tann()">
+            <input type="button" class="operator" name="tangente" value="tan" onclick="calc.tan()">
+            <input type="button" class="operator" name="potencia" value="ArcSin" onclick="calc.asin()">
         
-            <input type="button" class="operator" name = "neperiano" value="ln" onclick="calc.ln()">
-            <input type="button" class="operator" name = "logaritmo" value="log" onclick="calc.log()">
+            <input type="button" class="operator" name = "neperiano" value="ArcCos" onclick="calc.acos()">
+            <input type="button" class="operator" name = "logaritmo" value="ArcTan" onclick="calc.atan()">
             <input type="button" class="clear" name = "clear" value="C" onclick="calc.clear()">
             <input type="button" class="operator" name = "divide" value="/" onclick="calc.divide()">
         
