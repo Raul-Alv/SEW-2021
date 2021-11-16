@@ -1,0 +1,40 @@
+form{
+    background-color: lightslategray;
+    display:grid;
+    
+}
+
+.result{
+    height:2.75em;
+    width:24em;
+}
+
+.queue{
+    height:20em;
+    width:24em;
+}
+
+.memory, .operator, .numbers, .enter, .clear{
+    height:3.5em;
+    width:6em;
+}
+
+.memory{
+    background-color: azure;
+}
+
+.operator{
+    background-color: darkgray;
+}
+
+.numbers{
+    background-color: floralwhite;
+}
+
+.enter{
+    background-color: forestgreen;
+}
+
+.clear{
+    background-color: red;
+}
