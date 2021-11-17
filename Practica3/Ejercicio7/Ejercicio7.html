@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Ejercicio 7</title>
+        <link rel="stylesheet" href="Ejercicio7.css"/>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="Ejercicio7.js"></script>
+    </head>
+
+    <body>
+        <h1>Ejercicio 7</h1>
+        <h2>Subtiltulo a esconder</h2>
+
+        <input type="button" class="ocultar" id="ocultar" name="ocultar" value="Ocultar titulo" onclick="ejer.ocultar()">
+
+        <p id="lorem1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+        <button id="añadir">Añadir parrafo</button>
+
+        <p id="elim">Pulsa el boton para elminarme</p>
+        <button id="butElim">Eiminar</button>
+
+        <input type="button" class="path" id="path" name="path" value="Mostrar path" onclick="ejer.recorrer()">
+
+        <table class="tabla">
+            <tr>
+                <th>Fila/Columna</th>
+                <th>Columna 1</th>
+                <th>Columna 2</th>
+                <th>Columna 3</th>
+                <th>Columna 4</th>
+                <th>Totales</th>
+            </tr>
+
+            <tr>
+                <th>Fila 1</th>
+                <td class="fila1">5</td>
+                <td class="fila1">2</td>
+                <td class="fila1">3</td>
+                <td class="fila1">4</td>
+                <td class="totalFila1"></td>
+            </tr>
+
+            <tr>
+                <th>Fila 2</th>
+                <td class="fila2">8</td>
+                <td class="fila2">2</td>
+                <td class="fila2">2</td>
+                <td class="fila2">6</td>
+                <td class="totalFila2"></td>
+            </tr>
+
+            <tr>
+                <th>Fila 3</th>
+                <td class="fila3">1</td>
+                <td class="fila3">1</td>
+                <td class="fila3">10</td>
+                <td class="fila3">8</td>
+                <td class="totalFila3"></td>
+            </tr>
+
+            <tr>
+                <th>Totales</th>
+                <td class="totalColumna1"></td>
+                <td class="totalColumna2"></td>
+                <td class="totalColumna3"></td>
+                <td class="totalColumna4"></td>
+                <td></td>
+            </tr>
+        </table>
+        <button onclick="ejer.calcularFilas()">Calcular Filas</button>
+        <button onclick="ejer.calcularColumnas('.table')">Calcular Columnas</button>
+
+        <p>
+            <a href="http://validator.w3.org/check/referer" hreflang="en-us">
+                <img src="valid-html5-button.png" alt="¡HTML5 válido!" height="31" width="88">
+            </a>
+            <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                <img style="border:0;width:88px;height:31px"
+                    src="http://jigsaw.w3.org/css-validator/images/vcss"
+                    alt="¡CSS Válido!" />
+            </a>
+        </p>
+             
+    </body>
+</html>
