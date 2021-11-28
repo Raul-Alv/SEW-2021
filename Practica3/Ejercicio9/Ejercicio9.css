@@ -15,3 +15,11 @@ button{
     font-size: 1.1em;
 }
 
+#xml{
+    color: gray;
+/* font-size: 0.7em; */
+}
+
+#tituloXml{
+    font-size: 0.9em;
+}

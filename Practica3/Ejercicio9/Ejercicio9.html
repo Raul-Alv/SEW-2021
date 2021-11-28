@@ -2,32 +2,39 @@
 <html lang="es">
     <head>
         <meta charset="UTF-8">
-		<title>Ejercicio 8</title>
+		<title>Ejercicio 9</title>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-		<link rel="stylesheet" href="Ejercicio8.css"/>
-		<script src="Ejercicio8.js"></script>
+		<link rel="stylesheet" href="Ejercicio9.css"/>
+		<script src="Ejercicio9.js"></script>
     </head>
     <body>
-        <h1>Ejercicio 8</h1>
+        <h1>Ejercicio 9</h1>
         <section>
             <h2>Tiempo en Avilés</h2>
-            <button id="aviles" onclick="meteo.cargarDatos('Aviles', '#aviles')">Ver tiempo</button>
+            <button id="aviles" onclick="meteo.verXML('Aviles')">Ver tiempo</button>
         </section>
         <section>
             <h2>Tiempo en San Petersburgo</h2>
-            <button id="sanPetersburgo" onclick="meteo.cargarDatos('Saint Petersburg', '#sanPetersburgo')">Ver tiempo</button>
+            <button id="sanPetersburgo" onclick="meteo.verXML('Saint Petersburg')">Ver tiempo</button>
         </section>
         <section>
             <h2>Tiempo en Lexington</h2>
-            <button id="lexington" onclick="meteo.cargarDatos('Lexington', '#lexington')">Ver tiempo</button>
+            <button id="lexinton" onclick="meteo.verXML('Lexington')">Ver tiempo</button>
         </section>
         <section>
             <h2>Tiempo en Varsovia</h2>
-            <button id="varsovia" onclick="meteo.cargarDatos('Warsaw', '#varsovia')">Ver tiempo</button>
+            <button id="varsovia" onclick="meteo.verXML('Warsaw')">Ver tiempo</button>
         </section>
         <section>
             <h2>Tiempo en Houston</h2>
-            <button id="houston" onclick="meteo.cargarDatos('Houston', '#houston')">Ver tiempo</button>
+            <button id="houston" onclick="meteo.verXML('Houston')">Ver tiempo</button>
+        </section>
+
+        <section id="visualizacion">
+            <h2> VISUALIZACIÓN DE LOS DATOS:</h2>
+            <p id = "tituloXML"></p>
+            <p id = "xml"> </p>
+            <p id = "tiempo"></p>
         </section>
 
         <p>
