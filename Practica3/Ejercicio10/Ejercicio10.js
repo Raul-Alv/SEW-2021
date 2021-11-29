@@ -16,19 +16,17 @@ class Gold {
         // get the most recent exchange rates via the "latest" endpoint:
         $.ajax({
         url: 'https://www.metals-api.com/api/' + this.endpoint + '?access_key=' + this.access_key + "&base=EUR&symbols=XAU",   
-        dataType: 'jsonp',
-        method: 'GET',
+        dataType: 'json',
+        //method: 'GET',
         success: function(json) {
             console.log("Estamos 2");
-            $("#gold").append("<h3>Datos:</h3>");
-            // exchange rata data is stored in json.rates
-            alert(json.rates.GBP);
+            $("#gold").append("<h2>Datos:</h2>");
+            $("#gold").append("<h3>Metal</h3><p>Oro</p>");
+            $("#gold").append("<h3>Valor(€ por onza)</h3>");
+            $("#gold").append("<p>" + json.rates.XAU + "</p>");
 
-            // base currency is stored in json.base
-            alert(json.base);
-
-            // timestamp can be accessed in json.timestamp
-            alert(json.timestamp);
+            $("#gold").append("<h3>Hora de la consulta</h3>");
+            $("#gold").append("<p>" + json.date + "</p>");
 
         },
         error:function(){
