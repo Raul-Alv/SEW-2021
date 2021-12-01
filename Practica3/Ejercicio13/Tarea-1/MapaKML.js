@@ -1,7 +1,7 @@
 class MapaKML{
   constructor(){
     var map;
-    var src = 'https://developers.google.com/maps/documentation/javascript/examples/kml/westcampus.kml';
+    var src = arbol.xml;
   }
 
   initMap() {
@@ -21,6 +21,26 @@ class MapaKML{
       var testimonial = document.getElementById('capture');
       testimonial.innerHTML = content;
     });
+  }
+
+  renderKML(map) {
+    // Create a reader object passing in the URL of our KML file
+    reader = new H.data.kml.Reader(arbol.xml);
+    reader.addEventListener("statechange", function(evt){
+      if (evt.state === H.data.AbstractReader.State.READY) {
+        // Get KML layer from the reader object and add it to the map
+        map.addLayer(reader.getLayer());
+        reader.getLayer().getProvider().addEventListener("tap", (evt) => {
+          logEvent(evt.target.getData().name)
+        });
+      }
+      if (evt.state === H.data.AbstractReader.State.ERROR) {
+        logEvent('KML parsing error')
+      }
+    });
+  
+    // Parse the document
+    reader.parse();
   }
 }
 

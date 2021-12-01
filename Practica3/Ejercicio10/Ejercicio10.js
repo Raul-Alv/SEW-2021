@@ -20,7 +20,6 @@ class Gold {
         //method: 'GET',
         success: function(json) {
             console.log("Estamos 2");
-            $("#gold").append("<h2>Datos:</h2>");
             $("#gold").append("<h3>Metal</h3><p>Oro</p>");
             $("#gold").append("<h3>Valor(€ por onza)</h3>");
             $("#gold").append("<p>" + json.rates.XAU + "</p>");

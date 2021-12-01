@@ -18,6 +18,13 @@ class Ejercicio14{
     añadir(){
         history.pushState({pagina: 1}, "Get sitck bugged lol", "state.html#añadir");
     }
+    fullScreen(){
+        var elem = document.getElementById("myvideo");
+        if (elem.requestFullscreen) {
+            elem.requestFullscreen();
+    }
+    
+    }
 }
 
 var ejer = new Ejercicio14();
